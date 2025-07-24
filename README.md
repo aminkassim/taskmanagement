@@ -2,6 +2,7 @@ Version
 1. php 8.1
 2. laravel 10
 3. laragon 6.0
+4. node 18.8
 
 How to Run Project
 
