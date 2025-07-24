@@ -35,11 +35,5 @@ Route::post('/task', [TaskController::class, 'addTask'])->middleware(['auth:sanc
 Route::put('/task/{id}', [TaskController::class, 'updateTask'])->middleware(['auth:sanctum', 'abilities:update-task']);
 Route::delete('/task/{id}', [TaskController::class, 'deleteTask'])->middleware(['auth:sanctum', 'abilities:delete-task']);
 
-// Route::middleware('auth:sanctum')->group(function () {
-//     Route::get('/tasks', [TaskController::class, 'getListTask']);
-//     Route::post('/task', [TaskController::class, 'addTask']);
-//     Route::put('/task/{id}', [TaskController::class, 'updateTask']);
-//     Route::delete('/task/{id}', [TaskController::class, 'deleteTask']);
-//     // Route::post('/logout', [AuthController::class, 'logout']);
-// });
+
 
