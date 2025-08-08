@@ -8,10 +8,11 @@ How to Run Project
 
 1. npm install
 2. composer install
-3. php artisan migrate
-4. php artisan db:seed --class=DatabaseSeeder
-5. php artisan serve (backend)
-6. npm run dev (frontend)
+3. cp .env.example .env (Change DB_DATABASE if required)
+4. php artisan migrate
+5. php artisan db:seed --class=DatabaseSeeder
+6. php artisan serve (backend)
+7. npm run dev (frontend)
 
 login default:
 
